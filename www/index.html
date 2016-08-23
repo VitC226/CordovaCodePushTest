@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Cordova App Loader</title>
+        <meta name="viewport" content="width=device-width, maximum-scale=1, user-scalable=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta http-equiv="Content-Security-Policy" content="default-src * 'self' cdvfile://*; style-src 'unsafe-inline' 'self' cdvfile://*; script-src 'self' 'unsafe-eval' cdvfile://*">
+        <script type="text/javascript" src="cordova.js"></script>
+        <script src="cordova-app-loader-complete.js"></script>
+        <script 
+            type="text/javascript" 
+            server="http://localhost:8080/" 
+            timeout="5100" 
+            manifest="manifest.json" 
+            src="bootstrap.js"></script>
+    </head>
+    <body>
+    </body>
+</html>
